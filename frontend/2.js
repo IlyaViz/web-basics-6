@@ -4,7 +4,7 @@ let lastTabInstances;
 let tabInstances;
 
 function updateTabs(){
-    fetch("http://127.0.0.1:8000/get-tabs", {
+    fetch("http://54.198.215.250/get-tabs", {
         method: "GET",
     }).then((response) => {
         return response.json();

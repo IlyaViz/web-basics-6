@@ -31,7 +31,7 @@ function saveTabs(){
         tabs: tabInstances
     }));
 
-    fetch("http://127.0.0.1:8000/save-tabs", {
+    fetch("http://54.198.215.250/save-tabs", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
