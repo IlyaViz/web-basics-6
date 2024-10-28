@@ -1,0 +1,7 @@
+.tab-content {
+    text-align: center;
+}
+
+.tab, .tab-content {
+    word-break: break-all;
+}
